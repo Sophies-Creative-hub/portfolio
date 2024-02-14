@@ -23,3 +23,6 @@ hugo.linux
 
 ### Editor
 *.code-workspace
+# Ignore all files and directories except the publishDir
+*
+!docs/
