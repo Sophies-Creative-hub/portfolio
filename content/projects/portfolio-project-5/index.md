@@ -1,9 +1,9 @@
 ---
-title: Weather App
-seo_title: Portfolio Project 5
-summary: A Weather App as an example of using Python and Kivy to develop feature-rich cross-platform applications
-description: The project was created using Python and the Kivy framework to ensure cross-platform compatibility.
-slug: portfolio-project-5
+title: Naive Bayes Classifier for Diabetes Prediction
+
+summary: The Naive Bayes Classifier for Diabetes Prediction project demonstrates the implementation of machine learning techniques, particularly the Naive Bayes algorithm, for predicting diabetes risk based on various health parameters. The project utilizes Python and popular libraries such as pandas, scikit-learn, and seaborn for data preprocessing, model training, and visualization.
+description: The Naive Bayes Classifier for Diabetes Prediction project demonstrates the implementation of machine learning techniques, particularly the Naive Bayes algorithm, for predicting diabetes risk based on various health parameters. The project utilizes Python and popular libraries such as pandas, scikit-learn, and seaborn for data preprocessing, model training, and visualization.
+slug: portfolio-project-6
 author: Sophie Ischenko
 
 draft: false
@@ -12,7 +12,7 @@ lastmod:
 expiryDate: 
 publishDate: 
 
-feature_image: weather.png
+feature_image: 
 feature_image_alt: 
 
 project types: 
@@ -20,10 +20,7 @@ project types:
 
 techstack:
     - Python
-    - Kivy
-    - JSON
-    - API Integration
-source_url: https://github.com/Sophies-Creative-hub/WeatherApp?tab=readme-ov-file
+source_url: https://github.com/Sophies-Creative-hub/Naive-Bayes/tree/main/Diabetes_GaussianNB
 ---
 
 
