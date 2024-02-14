@@ -1,7 +1,25 @@
-# Ignore everything
-/*
+# Generated files by hugo
+/public/
+/resources/_gen/
+/assets/jsconfig.json
+hugo_stats.json
+themes/
+# Executable may be added to repository
+hugo.exe
+hugo.darwin
+hugo.linux
 
-# Include the docs directory
-!docs/
-
-
+# Temporary lock file while building
+/.hugo_build.lock
+archetypes/
+content/
+data/
+layouts/
+static/
+images/
+config.toml
+Projektbilder/
+resources
+static/
+theme.toml
+```
