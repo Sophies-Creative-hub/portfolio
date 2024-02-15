@@ -49,7 +49,7 @@ about_page_socials = true
 # Enable or disable individual social icons
 [social.links]
   github = "Sophies-Creative-hub"# include user id
-  email = "sophie.ischenko@icloud.com"
+  email = "${EMAIL_ADDRESS}" 
   # linkedin = "username" # Comment out to disable
   # mastodon_server = "example.social" # include subdomains if relevant, scheme not needed (defaults to https)
   # mastodon_user = "username" # don't include preceding @
