@@ -1,4 +1,4 @@
-baseURL = 'http://sophies-creative-hub.github.io.com/portfolio/'
+baseURL = ' https://sophies-creative-hub.github.io/portfolio/'
 languageCode = 'en-us'
 title = 'Sophies creative hub'
 publishDir = "docs"
