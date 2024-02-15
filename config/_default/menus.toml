@@ -1,0 +1,103 @@
+[[main]]
+identifier = "work"
+name = "Work"
+url = "/projects/"
+weight = 1
+
+[[main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    parent = "work"
+    weight = 1
+
+[[main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    parent = "work"
+    weight = 2
+
+
+[[main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    parent = "work"
+    weight = 3
+
+
+[[main]]
+identifier = "certifications"
+name = "Certifications"
+url = "/certifications/"
+weight = 2
+
+[[main]]
+    identifier = "linux"
+    name = "Linux"
+    url = "/certifications/linux/"
+    parent = "certifications"
+    weight = 4
+
+[[main]]
+    identifier = "aws"
+    name = "AWS"
+    url = "/certifications/aws/"
+    parent = "certifications"
+    weight = 4
+
+[[main]]
+    identifier = "azure"
+    name = "Microsoft Azure"
+    url = "/certifications/microsoft-azure/"
+    parent = "certifications"
+    weight = 4
+
+[[main]]
+    identifier = "scrum"
+    name = "Scrum"
+    url = "/certifications/scrum/"
+    parent = "certifications"
+    weight = 4
+
+[[main]]
+    identifier = "istqb"
+    name = "Testing"
+    url = "/certifications/istqb/"
+    parent = "certifications"
+    weight = 4
+
+[[main]]
+identifier = "explore"
+name = "Explore"
+url = "/categories/"
+weight = 5
+
+[[main]]
+    identifier = "categories"
+    name = "Categories"
+    url = "/categories/"
+    parent = "explore"
+    weight = 6
+
+[[main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    parent = "explore"
+    weight = 7
+
+[[main]]
+    identifier = "series"
+    name = "Series"
+    url = "/series/"
+    parent = "explore"
+    weight = 8
+
+[[main]]
+    identifier = "project-type"
+    name = "Project Types"
+    url = "/project-types/"
+    parent = "explore"
+    weight = 9

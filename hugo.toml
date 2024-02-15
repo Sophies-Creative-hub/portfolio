@@ -1,0 +1,7 @@
+baseURL = 'http://sophies-creative-hub.github.io.com/portfolio/'
+languageCode = 'en-us'
+title = 'Sophies creative hub'
+publishDir = "docs"
+theme = 'hugo-liftoff'
+
+
