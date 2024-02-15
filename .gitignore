@@ -3,3 +3,9 @@
 !docs/
 !docs/*
 !docs/**/*
+!content/**/*.png
+!content/**/*.jpg
+!content/**/**/*.png
+!content/**/**/*.jpg
+!content/**/**/**/*.png
+!content/**/**/**/*.jpg
