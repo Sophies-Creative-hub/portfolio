@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  
+
+
+
+
+
+
+  
+  
+  
+    
+    
+  
+
+
+
+
+
+  
+
+
+
+  
+  
+
+<link rel="stylesheet" href="https://sophies-creative-hub.github.io/portfolio/main.min.css" />
+
+
+  
+<meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  
+
+<title>Portfolio Project 2</title>
+
+
+<meta name="author" content="Sophie Ischenko">
+
+<meta name="description" content="This backend web service enables CRUD operations on tasks in a todo list application, using Express.js for routing and MongoDB for data storage. It offers RESTful endpoints, dynamic route handling, and error handling, providing a scalable solution for task management. Future developments include authentication, pagination, and performance optimization.">
+<link rel="canonical" href="https://sophies-creative-hub.github.io/portfolio/projects/portfolio-project-2/">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Portfolio Project 2">
+<meta property="og:description" content="This backend web service enables CRUD operations on tasks in a todo list application, using Express.js for routing and MongoDB for data storage. It offers RESTful endpoints, dynamic route handling, and error handling, providing a scalable solution for task management. Future developments include authentication, pagination, and performance optimization.">
+<meta property="og:url" content="https://sophies-creative-hub.github.io/portfolio/projects/portfolio-project-2/">
+<meta property="article:published_time" content="2020-02-20T03:52:30-05:00">
+  <meta property="article:modified_time" content="2020-02-20T03:52:30-05:00">
+  
+
+<meta property="og:image" content="https://sophies-creative-hub.github.io/portfolio/projects/portfolio-project-2/todolist.png"/>
+  
+    <meta property="og:image:alt" content="Website" />
+  
+
+
+
+
+
+
+
+<meta name="twitter:title" content="Portfolio Project 2">
+<meta name="twitter:description" content="This backend web service enables CRUD operations on tasks in a todo list application, using Express.js for routing and MongoDB for data storage. It offers RESTful endpoints, dynamic route handling, and error handling, providing a scalable solution for task management. Future developments include authentication, pagination, and performance optimization.">
+
+
+<meta name="twitter:card" content="summary_large_image">
+  <meta property="twitter:image" content="https://sophies-creative-hub.github.io/portfolio/projects/portfolio-project-2/todolist.png"/>
+  
+    <meta name="twitter:image:alt" content="Website">
+  
+
+
+
+
+
+  
+    
+  
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://sophies-creative-hub.github.io/#/schema/person/1",
+      "name": "Sophie Ischenko",
+      "url": "https://sophies-creative-hub.github.io/",
+      "image": {
+        "@type": "ImageObject",
+        "@id": "https://sophies-creative-hub.github.io/#/schema/image/1",
+        "url": "https://sophies-creative-hub.github.io/images/default.png",
+        "width": 453 ,
+        "height": 455 ,
+        "caption": "Sophie Ischenko"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://sophies-creative-hub.github.io/#/schema/website/1",
+      "url": "https://sophies-creative-hub.github.io/",
+      "name": "Portfolio",
+      "description": "Personal portfolio site of Sophie Ischenko.",
+      "publisher": {
+        "@id": "https://sophies-creative-hub.github.io/#/schema/person/1"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://sophies-creative-hub.github.io/portfolio/projects/portfolio-project-2/",
+      "url": "https://sophies-creative-hub.github.io/portfolio/projects/portfolio-project-2/",
+      "name": "To Do List",
+      "description": "This backend web service enables CRUD operations on tasks in a todo list application, using Express.js for routing and MongoDB for data storage. It offers RESTful endpoints, dynamic route handling, and error handling, providing a scalable solution for task management. Future developments include authentication, pagination, and performance optimization.",
+      "isPartOf": {
+        "@id": "https://sophies-creative-hub.github.io/#/schema/website/1"
+      },
+      "about": {
+        "@id": "https://sophies-creative-hub.github.io/#/schema/person/1"
+      },
+      "datePublished": "2020-02-20T03:52:30-05:00",
+      "dateModified": "2020-02-20T03:52:30-05:00",
+      "breadcrumb": {
+        "@id": "https://sophies-creative-hub.github.io/portfolio/projects/portfolio-project-2/#/schema/breadcrumb/1"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://sophies-creative-hub.github.io/portfolio/projects/portfolio-project-2/#/schema/image/2"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [{
+        "@type": "ReadAction", "target": ["https://sophies-creative-hub.github.io/portfolio/projects/portfolio-project-2/"]
+      }]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://sophies-creative-hub.github.io/portfolio/projects/portfolio-project-2/#/schema/breadcrumb/1",
+      "name": "Breadcrumbs",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position":  1 ,
+        "item": {
+          "@type": "WebPage",
+          "@id": "https://sophies-creative-hub.github.io/portfolio/",
+          "url": "https://sophies-creative-hub.github.io/portfolio/",
+          "name": "Home"
+          }
+        },{
+        "@type": "ListItem",
+        "position":  2 ,
+        "item": {
+          "@type": "WebPage",
+          "@id": "https://sophies-creative-hub.github.io/portfolio/projects/",
+          "url": "https://sophies-creative-hub.github.io/portfolio/projects/",
+          "name": "Projects"
+          }
+        },{
+        "@type": "ListItem",
+        "position":  3 ,
+        "item": {
+          "@id": "https://sophies-creative-hub.github.io/portfolio/projects/portfolio-project-2/"
+          }
+        }]
+    },
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "ImageObject",
+          "@id": "https://sophies-creative-hub.github.io/portfolio/projects/portfolio-project-2/#/schema/image/2",
+          "url": "https://sophies-creative-hub.github.io/portfolio/projects/portfolio-project-2/todolist.png",
+          "contentUrl": "https://sophies-creative-hub.github.io/portfolio/projects/portfolio-project-2/todolist.png",
+          "caption": "Website"
+        }
+      ]
+    }
+  ]
+}
+</script>
+  
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+
+  
+
+</head><body>
+    <header class="container">
+  <nav class="main-nav" id="js-navbar">
+    <a class="logo" href="https://sophies-creative-hub.github.io/portfolio/">Portfolio</a>
+    <ul class="menu" id="js-menu">
+      
+      
+      
+      <li class="menu-item">
+        <span class="menu-link">Work<span class="drop-icon">▾</span></span>
+        <ul class="sub-menu">
+          
+            <li class="menu-item">
+              <a href="/portfolio/projects/" class="menu-link">Projects</a>                  
+            </li>
+          
+            <li class="menu-item">
+              <a href="/portfolio/about/" class="menu-link">About</a>                  
+            </li>
+          
+        </ul>
+      </li>
+      
+      
+      
+      <li class="menu-item">
+        <span class="menu-link">Certifications<span class="drop-icon">▾</span></span>
+        <ul class="sub-menu">
+          
+            <li class="menu-item">
+              <a href="/portfolio/certifications/aws/" class="menu-link">AWS</a>                  
+            </li>
+          
+            <li class="menu-item">
+              <a href="/portfolio/certifications/linux/" class="menu-link">Linux</a>                  
+            </li>
+          
+        </ul>
+      </li>
+      
+      
+      
+      <li class="menu-item">
+        <span class="menu-link">Explore<span class="drop-icon">▾</span></span>
+        <ul class="sub-menu">
+          
+            <li class="menu-item">
+              <a href="/portfolio/categories/" class="menu-link">Categories</a>                  
+            </li>
+          
+            <li class="menu-item">
+              <a href="/portfolio/tags/" class="menu-link">Tags</a>                  
+            </li>
+          
+            <li class="menu-item">
+              <a href="/portfolio/series/" class="menu-link">Series</a>                  
+            </li>
+          
+            <li class="menu-item">
+              <a href="/portfolio/project-types/" class="menu-link">Project Types</a>                  
+            </li>
+          
+        </ul>
+      </li>
+      
+      
+      <li class="menu-item--align">
+        <div class="switch">
+          <input class="switch-input" type="checkbox" id="themeSwitch">
+          <label aria-hidden="true" class="switch-label" for="themeSwitch">On</label>
+          <div aria-hidden="true" class="switch-marker"></div>
+        </div>
+      </li>
+    </ul>
+    <span class="nav-toggle" id="js-navbar-toggle">
+      <svg xmlns="http://www.w3.org/2000/svg" id="Outline" viewBox="0 0 24 24" width="30" height="30" fill="var(--color-contrast-high)"><rect y="11" width="24" height="2" rx="1"/><rect y="4" width="24" height="2" rx="1"/><rect y="18" width="24" height="2" rx="1"/></svg>
+    </span>
+  </nav>
+</header><main class="section">
+<div class="container">
+  <section class="page-header">
+    <div class="">
+      <h1 class="page-header-title">To Do List<sup></sup>
+      </h1>
+      <div class="project-list-meta">
+        
+        
+          <span>HTML/CSS</span>
+        
+          <span>JavaScript</span>
+        
+        
+        
+          
+            <a href="https://sophies-creative-hub.github.io/portfolio/project-types/personal/">Personal</a>
+          
+        
+      </div>
+      <p class="page-header-desc">This backend web service enables CRUD operations on tasks in a todo list application, using Express.js for routing and MongoDB for data storage. It offers RESTful endpoints, dynamic route handling, and error handling, providing a scalable solution for task management. Future developments include authentication, pagination, and performance optimization.</p>
+      
+        <div class="btn-group">
+          
+          
+            <a class="btn-secondary" href="https://github.com/Sophies-Creative-hub/ToDoList">Source</a>
+          
+        </div>
+      
+    </div>
+  </section>
+</div>
+<div class="single-container">
+  <div class="single-feature-img">
+
+
+
+  
+
+
+<img class="feature-image" 
+     srcset="/portfolio/projects/portfolio-project-2/todolist.png 480w, /portfolio/projects/portfolio-project-2/todolist.png 800w"
+     sizes="(max-width: 600px) 480px, 800px"
+     src="/portfolio/projects/portfolio-project-2/todolist.png"
+     alt="Website">
+</div>
+  <article class="markdown">
+    <p><strong>Project Name: ToDoList REST API with Express and MongoDB</strong></p>
+<p><strong>Description:</strong>
+The ToDoList REST API with Express and MongoDB is a backend web service that provides endpoints for creating, reading, updating, and deleting tasks in a todo list application. Built using the Express.js framework for Node.js and MongoDB as the database, this project offers a robust and scalable solution for managing tasks through a RESTful API.</p>
+<p><strong>Key Features:</strong></p>
+<ul>
+<li>RESTful Endpoints: Implements RESTful endpoints for performing CRUD (Create, Read, Update, Delete) operations on tasks, allowing clients to interact with the todo list application programmatically.</li>
+<li>MongoDB Integration: Utilizes MongoDB, a NoSQL database, to store and retrieve task data efficiently, enabling seamless data management and persistence.</li>
+<li>Dynamic Route Handling: Utilizes Express.js to handle dynamic routes for accessing specific todo lists and their associated tasks, providing a flexible and intuitive API structure.</li>
+<li>Error Handling: Implements error handling middleware to gracefully handle errors and exceptions, ensuring robustness and reliability of the API.</li>
+<li>Data Validation: Incorporates data validation middleware to validate incoming requests and ensure data integrity and security, preventing invalid or malicious data from being processed.</li>
+<li>Cross-Origin Resource Sharing (CORS): Supports CORS to enable cross-origin requests from different domains or origins, facilitating integration with frontend applications and client-side JavaScript code.</li>
+</ul>
+<p><strong>Technologies:</strong></p>
+<ul>
+<li>Express.js: Used as the web framework for building the RESTful API server and handling HTTP requests and responses.</li>
+<li>MongoDB: Chosen as the backend database for storing task data in a flexible and scalable document-oriented format.</li>
+<li>Mongoose: Utilized as an Object Data Modeling (ODM) library for MongoDB, providing a higher-level abstraction for interacting with the database and defining data models.</li>
+<li>Body-parser: Middleware used for parsing incoming request bodies in different formats (e.g., JSON, URL-encoded), facilitating data extraction and processing.</li>
+<li>Lodash: JavaScript utility library used for simplifying common programming tasks, such as array manipulation, object iteration, and string manipulation.</li>
+</ul>
+<p><strong>Endpoints:</strong></p>
+<ul>
+<li><code>GET /</code>: Retrieves all tasks from the default todo list.</li>
+<li><code>POST /</code>: Adds a new task to either the default todo list or a specified custom list.</li>
+<li><code>POST /delete</code>: Deletes a task from either the default todo list or a specified custom list.</li>
+<li><code>GET /:categoryName</code>: Retrieves tasks from a specified custom list based on the list name provided in the URL parameter.</li>
+<li><code>GET /about</code>: Retrieves information about the API or its documentation.</li>
+</ul>
+<p><strong>Special Features:</strong></p>
+<ul>
+<li>Dynamic List Creation: Automatically creates a new todo list if a requested list with a specific name does not exist, enabling on-the-fly list creation.</li>
+<li>Custom List Management: Supports managing tasks in custom todo lists with user-defined names, providing flexibility for organizing tasks based on different categories or contexts.</li>
+<li>Responsive Error Handling: Provides informative error messages and status codes for various error scenarios, improving debugging and troubleshooting capabilities for API consumers.</li>
+<li>Middleware Functionality: Utilizes middleware functions for handling request validation, error handling, and other cross-cutting concerns, enhancing code modularity and maintainability.</li>
+</ul>
+<p><strong>Future Developments:</strong></p>
+<ul>
+<li>Authentication and Authorization: Implementation of user authentication and authorization mechanisms to secure API endpoints and restrict access to authorized users only.</li>
+<li>Pagination and Filtering: Integration of pagination and filtering functionality for efficiently handling large datasets and providing advanced querying capabilities to API clients.</li>
+<li>Webhooks and Event Notifications: Addition of webhook endpoints or event notification mechanisms to enable real-time updates and integration with external systems or services.</li>
+<li>Performance Optimization: Optimization of database queries, caching strategies, and response compression techniques to improve API performance and scalability.</li>
+<li>API Documentation: Generation of comprehensive API documentation using tools like Swagger or API Blueprint to facilitate integration and usage by third-party developers.</li>
+</ul>
+<p><strong>Conclusion:</strong>
+The ToDoList REST API with Express and MongoDB offers a powerful and flexible backend solution for building todo list applications with seamless task management capabilities. By leveraging Express.js and MongoDB&rsquo;s strengths, along with best practices in RESTful API design, it provides a robust foundation for developing scalable and feature-rich task management systems.</p>
+
+  </article>
+</div>
+
+    </main><footer>
+  
+  <div class="section footer">
+    <p class="footer-copyright">&copy; 2024 &middot; 
+      <a href="https://sophies-creative-hub.github.io/portfolio/">Portfolio</a>
+      
+        <span>&middot; <a href="https://sophies-creative-hub.github.io/" target="_blank" rel="noopener">My Blog</a></span>
+      
+    </p>
+    
+      <div class="footer-socials">
+        
+<div class="social-links">
+  <ul class="social-icons">
+    
+    
+
+    
+    
+
+    
+    
+    <li>
+      <a href="https://github.com/Sophies-Creative-hub" target="_blank" rel="noopener" aria-label="Visit Github profile" class="social-btn github">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-github" width="24" height="24" viewBox="0 0 24 24" fill="var(--color-primary)"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+      </a>
+    </li>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    <li>
+      <a href="mailto:?to=sophie.ischenko%40icloud.com" target="_blank" class="social-btn email">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-mail" width="24" height="24" viewBox="0 0 416 288" fill="var(--color-primary)"><path d="m0 16v256 16h16 384 16v-16-256-16h-16-384-16zm347 16-139 92.5-139-92.5zm-148 125.5 9 5.5 9-5.5 167-111.5v210h-352v-210z"/></svg>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+
+      </div>
+    
+  </div>
+</footer>
+
+  
+
+
+
+
+
+  
+  
+  
+    
+    
+  
+
+
+
+
+  
+  
+    
+
+<script src="https://sophies-creative-hub.github.io/portfolio/main.min.js"></script>
+
+
+
+  
+</body>
+</html>
